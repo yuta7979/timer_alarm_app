@@ -10,7 +10,7 @@
 
 ## インストール
 
-リポジトリをクローン:
+リポジトリをクローン :
 
 ```sh
 git clone https://github.com/yourusername/timer-alarm-app.git
@@ -19,9 +19,7 @@ cd timer-alarm-app
 
 pip install PySide6
 使用方法
-アプリケーションを実行:
-
-python main.py
+アプリケーションを実行 : python main.py
 タイマーを設定:
 「タイマー開始」をクリックし、秒単位で時間を入力します。
 タイマーがカウントダウンを開始し、表示が更新されます。
