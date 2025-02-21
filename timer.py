@@ -11,6 +11,8 @@ class Timer(QObject):
     self._running = False
 
   def start(self, duration):
+    if self._running:
+      return
     self._running = True
     self._timer_thread = threading.Thread(
         target=self._countdown, args=(duration,))
